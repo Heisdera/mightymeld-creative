@@ -1,47 +1,14 @@
 # Memory Game - Tailwind CSS
 
-## Development
+## Development - Entry for Most Impressive Expanded Functionality 
 
-Welcome to the hackathon! Here’s how to get started.
+Welcome to my creative build added functionalities build summary
 
-### Editing with MightyMeld
+- Implemented Dark mode with localStorage, ensuring persistence across user sessions.
+- Enabled automatic switch to Dark mode when the system theme changes between light and Dark.
+- Implemented sound effects for tile flips, matches, mismatches, and game completion to enhance user experience.
+- Then Additionally, introduced streak count and longest streak scores for each game session, stored in localStorage and updated whenever the user surpasses their previous longest streak score.
 
-1. Clone this repository to your local machine.
+![start screeen screenshot](./src/assets/20240227_101006.jpg)
 
-2. Change into the directory of the cloned repository: `cd mightymeld-memory`.
-
-3. Install the dependencies: `npm install`.
-
-4. Make sure you have an account at [mightymeld.app](https://mightymeld.app).
-
-5. If you do not prefer using VS Code, set up your favorite text editor (see below).
-
-6. Start MightyMeld: `npx mightymeld`.
-
-### Setting up your favorite text editor
-
-You can choose “Open in Editor” in various places in MightyMeld to open files in your text editor. This project is set up to open VS Code. If you want to use a different editor, you can change the `editor` field in `mightymeld.json` to a different editor. See the [editor documentation](https://docs.mightymeld.com/docs/setup/reference/configuration#editor) for more information.
-
-## Design
-
-This animation shows how the game should look in it’s final form. The game mechanics are already implemented but the UI needs styling and structure.
-
-Once loaded in MightyMeld, you should set your frame(s) to 400px wide (mobile size). You only need to work on that size for the speed run challenge.
-
-![Animation of completed game](docs/solution.gif)
-
-Here are full size renders of the app screens.
-
-_All colors used in the design are standard Tailwind CSS colors._
-
-<kbd>
-	<img src="docs/start.png" width="400" height="465" />
-</kbd>
-
-<kbd>
-	<img src="docs/play.png" width="400" height="465" />
-</kbd>
-
-<kbd>
-	<img src="docs/mightymeld.png">
-</kbd>
+![play screen screenshot](./src/assets/20240227_101511.jpg)
